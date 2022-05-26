@@ -6,7 +6,12 @@
 - Revisar y compilar el codigo en en arduino-ide
 - Revisar las temperatura en la sección "monitor de serie"
 
+https://programarfacil.com/blog/arduino-blog/ds18b20-sensor-temperatura-arduino/
+
 *node*
 - Ingresar a capeta server
+- $ npm install
+   - DEPENDENCIAS: 
+   - npm i serialport
+   - npm i express
 - $ node index.js
-
