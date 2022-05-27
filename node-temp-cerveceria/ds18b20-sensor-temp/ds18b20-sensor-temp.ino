@@ -28,5 +28,5 @@ void loop() {
     //Serial.print(sensorDS18B20.getTempCByIndex(1));
     //Serial.println(" C");
     
-    delay(1000); 
+    delay(5000); 
 }
