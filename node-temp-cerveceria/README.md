@@ -14,4 +14,5 @@ https://programarfacil.com/blog/arduino-blog/ds18b20-sensor-temperatura-arduino/
    - DEPENDENCIAS: 
    - npm i serialport
    - npm i express
+   - npm i socket.io
 - $ node index.js
