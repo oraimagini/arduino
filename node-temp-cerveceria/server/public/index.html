@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cervecería</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <div>
       <h1>Temperatura:</h1>
-      <h2>fermentador 01</h2>
-      <p id="printdata"></p>
+      <h4>**fermentador 01**</h4>
+      <div class="container-data">
+        <h1 id="printdata"></h1>
+      </div>
    </div>
     <script src="/socket.io/socket.io.js"></script>
     <script src="main.js"></script>
