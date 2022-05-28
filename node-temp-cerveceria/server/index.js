@@ -16,7 +16,7 @@ const io = require('socket.io')(server);
 // data public
 app.use(express.static(__dirname + '/public'));
 // init server
-server.listen(3000, function () {
+server.listen(3000, "127.0.0.1", function () {
    console.log('server listening on port', 3000)
 })
 
@@ -27,7 +27,7 @@ const { ReadlineParser } = require('@serialport/parser-readline');
 // Puerto, revisar estos datos en arduino-ide 
 const port = new SerialPort({ path: '/dev/ttyACM0', baudRate: 9600 });
 
-var dataArduino;
+//var dataArduino;
 
 // formato de información por consola 
 const parser = port.pipe(new ReadlineParser({ delimiter: '\r\n' }));
