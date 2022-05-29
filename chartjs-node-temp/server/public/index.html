@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cervecería</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.esm.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <div>
+      <h1>Temperatura:</h1>
+      <h4>**fermentador 01**</h4>
+      <div class="container-data">
+        <h1 id="printdata"></h1>
+      </div>
+   </div>
+
+   <div id="container-chart">
+    <canvas id="myChart" width="400" height="400"></canvas>
+   </div>
+    <script src="/socket.io/socket.io.js"></script>
+   
+    <script src="main.js"></script>
+</body>
+</html>
