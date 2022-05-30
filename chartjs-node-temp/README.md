@@ -15,7 +15,7 @@ https://programarfacil.com/blog/arduino-blog/ds18b20-sensor-temperatura-arduino/
    - npm i serialport
    - npm i express
    - npm i socket.io
-- $ node server/index.js
+- $ node index.js
 
 *configuración*
 
@@ -42,7 +42,7 @@ server.listen(3000);
 parser.on('data', function(data){
    console.log(data);
    io.emit('temp, data');
-})  
+})
 
 
 // ./public/index.html
@@ -60,6 +60,7 @@ parser.on('data', function(data){
 const socket = io();
 socket.on('temp', function(data) {
    console.log(data)
+// agregar logica para chart-js
 })
 
 
