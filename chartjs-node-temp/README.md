@@ -15,8 +15,7 @@ https://programarfacil.com/blog/arduino-blog/ds18b20-sensor-temperatura-arduino/
    - npm i serialport
    - npm i express
    - npm i socket.io
-   - npm i chart.js
-- $ node index.js
+- $ node server/index.js
 
 *configuración*
 
@@ -48,7 +47,10 @@ parser.on('data', function(data){
 
 // ./public/index.html
 
-<canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart" width="600" height="400"></canvas>
+
+// CDN chart
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
 
 <script src="/socket.io/socket.io.js"> </script>       
 <script src="main.js"> </script>
