@@ -1,3 +1,4 @@
+const { io } = require("socket.io-client");
 console.log('temperatura de los fermentadores')
 
 const socket = io();
